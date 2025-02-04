@@ -62,7 +62,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><img class="club-icon" src="Liverpool"> Liverpool</td>
+                    <td><img class="club-icon" src="liverpool.png"> Liverpool</td>
                     <td>22</td>
                     <td>16</td>
                     <td>5</td>
@@ -80,7 +80,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Manu"> Manchester United</td>
+                    <td><img class="club-icon" src="manu.jpeg"> Manchester United</td>
                     <td>23</td>
                     <td>14</td>
                     <td>4</td>
@@ -98,7 +98,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Arsenal"> Arsenal</td>
+                    <td><img class="club-icon" src="arsenal.png"> Arsenal</td>
                     <td>23</td>
                     <td>13</td>
                     <td>8</td>
@@ -116,7 +116,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Nottingham "> Nottingham Forest</td>
+                    <td><img class="club-icon" src="nottingham.jpeg "> Nottingham Forest</td>
                     <td>23</td>
                     <td>13</td>
                     <td>5</td>
@@ -134,7 +134,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Chelsea"> Chelsea</td>
+                    <td><img class="club-icon" src="chelsea.png"> Chelsea</td>
                     <td>23</td>
                     <td>12</td>
                     <td>5</td>
@@ -152,7 +152,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Man City"> Manchester City</td>
+                    <td><img class="club-icon" src="mancity.jpeg"> Manchester City</td>
                     <td>23</td>
                     <td>12</td>
                     <td>5</td>
@@ -170,7 +170,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Tottenham"> Tottenham</td>
+                    <td><img class="club-icon" src="tottenham.png"> Tottenham</td>
                     <td>23</td>
                     <td>12</td>
                     <td>6</td>
@@ -188,7 +188,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Aston Villa"> Aston Villa</td>
+                    <td><img class="club-icon" src="aston villa.jpeg"> Aston Villa</td>
                     <td>23</td>
                     <td>11</td>
                     <td>6</td>
@@ -206,7 +206,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Wolves"> Wolves</td>
+                    <td><img class="club-icon" src="wolves.png"> Wolves</td>
                     <td>23</td>
                     <td>10</td>
                     <td>7</td>
@@ -224,7 +224,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Ipswich"> Ipswich</td>
+                    <td><img class="club-icon" src="ipswich.png"> Ipswich</td>
                     <td>23</td>
                     <td>10</td>
                     <td>5</td>
@@ -242,7 +242,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Bournemouth"> Bournemouth</td>
+                    <td><img class="club-icon" src="bournemouth.jpeg"> Bournemouth</td>
                     <td>23</td>
                     <td>9</td>
                     <td>8</td>
@@ -260,7 +260,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="West Ham"> West Ham</td>
+                    <td><img class="club-icon" src="west ham.png"> West Ham</td>
                     <td>23</td>
                     <td>9</td>
                     <td>6</td>
@@ -278,7 +278,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Crystal Palace"> Crystal Palace</td>
+                    <td><img class="club-icon" src="crystal palace.jpeg"> Crystal Palace</td>
                     <td>23</td>
                     <td>8</td>
                     <td>7</td>
@@ -296,7 +296,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Brentford"> Brentford</td>
+                    <td><img class="club-icon" src="brentford.png"> Brentford</td>
                     <td>23</td>
                     <td>8</td>
                     <td>7</td>
@@ -314,7 +314,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Fulham"> Fulham</td>
+                    <td><img class="club-icon" src="fulham.jpeg"> Fulham</td>
                     <td>23</td>
                     <td>8</td>
                     <td>5</td>
@@ -332,7 +332,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Everton"> Everton</td>
+                    <td><img class="club-icon" src="everton.jpeg"> Everton</td>
                     <td>23</td>
                     <td>7</td>
                     <td>4</td>
@@ -350,7 +350,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img class="club-icon" src="Southampton"> Southampton</td>
+                    <td><img class="club-icon" src="southampton.png"> Southampton</td>
                     <td>23</td>
                     <td>6</td>
                     <td>3</td>
