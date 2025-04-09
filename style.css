@@ -1,62 +1,53 @@
 body {
     background-color: #f8f8f8; /* A very light gray, softer white */
+    font-family: Arial, sans-serif;
 }
 
-h1 {
-    color: #333; /* A dark gray, less harsh than black */
+.title-bar {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    min-width: 1400px;
+    margin-top: 20px;
 }
 
 th, td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
+    text-align: center;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #333; /* Dark gray background for headers */
+    color: white;
+}
+
+td:first-child, th:first-child {
+    text-align: center; /* Center-align position column */
+}
+
+td:nth-child(2) { /* Team column */
+    text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .club-icon {
     width: 30px;
     height: 30px;
-    vertical-align: middle;
     margin-right: 5px;
 }
 
-.last-5 span {
+/* Form column styling */
+td:last-child {
+    text-align: center;
+}
+
+td:last-child span {
     margin: 0 2px;
-    font-size: 1.2em;
-}
-
-.win {
-    color: green;
-}
-
-.draw {
-    color: gray;
-}
-
-.loss {
-    color: red;
-}
-
-.table-container {
-    overflow-x: auto;
-}
-
-td:first-child {
-    display: flex;
-    align-items: center;
-    text-align: left;
-}
-
-td:first-child img {
-    margin-right: 5px;
 }
