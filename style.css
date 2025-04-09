@@ -1,0 +1,62 @@
+body {
+    background-color: #f8f8f8; /* A very light gray, softer white */
+}
+
+h1 {
+    color: #333; /* A dark gray, less harsh than black */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    min-width: 1400px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.club-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.last-5 span {
+    margin: 0 2px;
+    font-size: 1.2em;
+}
+
+.win {
+    color: green;
+}
+
+.draw {
+    color: gray;
+}
+
+.loss {
+    color: red;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+td:first-child {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+td:first-child img {
+    margin-right: 5px;
+}
