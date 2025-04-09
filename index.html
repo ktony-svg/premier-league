@@ -4,367 +4,214 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premier League Table</title>
-    <link rel="stylesheet" href="style.css"> 
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: center;
-            font-family: Arial, sans-serif;
-            min-width: 1400px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .club-icon {
-            width: 30px;
-            height: 30px;
-            vertical-align: middle;
-        }
-        .last-5 span {
-            margin: 0 2px;
-            font-size: 1.2em;
-        }
-        .win {
-            color: green;
-        }
-        .draw {
-            color: gray;
-        }
-        .loss {
-            color: red;
-        }
-        .table-container {
-            overflow-x: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Premier League Table</h1>
+    <div class="title-bar">
+        <h1>Premier League</h1>
+    </div>
     <div class="table-container">
         <table>
             <thead>
                 <tr>
-                    <th align="left">Club</th>  <th>MP</th>
-                    <th>W</th>
-                    <th>D</th>
-                    <th>L</th>
-                    <th>GF</th>
-                    <th>GA</th>
+                    <th>Position</th>
+                    <th>Team</th>
+                    <th>Played</th>
+                    <th>Won</th>
+                    <th>Drawn</th>
+                    <th>Lost</th>
                     <th>GD</th>
-                    <th>Pts</th>
-                    <th>Last 5</th>
+                    <th>Points</th>
+                    <th>Form</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="liverpool.png">&nbsp;Liverpool</td> <td>22</td>
+                    <td>1</td>
+                    <td><img class="club-icon" src="liverpool.png"><span>Liverpool</span></td>
+                    <td>22</td>
                     <td>16</td>
                     <td>5</td>
                     <td>1</td>
-                    <td>54</td>
-                    <td>21</td>
                     <td>33</td>
                     <td>53</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="draw">➖</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                    </td>
+                    <td>W D D D W W</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="manu.jpeg">&nbsp;Manchester United</td>
-                    <td>23</td>
-                    <td>14</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>42</td>
-                    <td>25</td>
-                    <td>17</td>
-                    <td>46</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                        <span class="draw">➖</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="left"> <img class="club-icon" src="arsenal.png">&nbsp;Arsenal</td>
+                    <td>2</td>
+                    <td><img class="club-icon" src="arsenal.png"><span>Arsenal</span></td>
                     <td>23</td>
                     <td>13</td>
                     <td>8</td>
                     <td>2</td>
-                    <td>44</td>
-                    <td>21</td>
                     <td>23</td>
                     <td>47</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                    </td>
+                    <td>W W D D W D W</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="nottingham.jpeg">&nbsp;Nottingham Forest</td>
+                    <td>3</td>
+                    <td><img class="club-icon" src="nottingham.jpeg"><span>Nottingham Forest</span></td>
                     <td>23</td>
                     <td>13</td>
                     <td>5</td>
                     <td>5</td>
-                    <td>33</td>
-                    <td>27</td>
                     <td>6</td>
                     <td>44</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                        <span class="draw">➖</span>
-                        <span class="loss">❌</span>
-                    </td>
+                    <td>W W W D D W L</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="chelsea.png">&nbsp;Chelsea</td>
+                    <td>4</td>
+                    <td><img class="club-icon" src="mancity.jpeg"><span>Man City</span></td>
                     <td>23</td>
                     <td>12</td>
                     <td>5</td>
                     <td>6</td>
-                    <td>41</td>
-                    <td>27</td>
-                    <td>14</td>
-                    <td>41</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="left"> <img class="club-icon" src="mancity.jpeg">&nbsp;Manchester City</td>
-                    <td>23</td>
-                    <td>12</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>47</td>
-                    <td>30</td>
                     <td>17</td>
                     <td>41</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                        <span class="draw">➖</span>
-                        <span class="loss">❌</span>
-                    </td>
+                    <td>W W W W D D W</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="tottenham.png">&nbsp;Tottenham</td>
+                    <td>5</td>
+                    <td><img class="club-icon" src="newcastle.png"><span>Newcastle</span></td>
                     <td>23</td>
                     <td>12</td>
-                    <td>6</td>
                     <td>5</td>
-                    <td>36</td>
-                    <td>30</td>
                     <td>6</td>
-                    <td>42</td>
-                    <td class="last-5">
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                        <span class="win">✔</span>
-                    </td>
+                    <td>14</td>
+                    <td>41</td>
+                    <td>W W W W L W W</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="aston villa.jpeg">&nbsp;Aston Villa</td>
+                    <td>6</td>
+                    <td><img class="club-icon" src="chelsea.png"><span>Chelsea</span></td>
+                    <td>23</td>
+                    <td>11</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>15</td>
+                    <td>40</td>
+                    <td>L L D D D W L</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><img class="club-icon" src="bournemouth.jpeg"><span>Bournemouth</span></td>
+                    <td>23</td>
+                    <td>11</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>15</td>
+                    <td>40</td>
+                    <td>D D D D W W W</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><img class="club-icon" src="aston villa.jpeg"><span>Aston Villa</span></td>
                     <td>23</td>
                     <td>11</td>
                     <td>6</td>
                     <td>6</td>
-                    <td>30</td>
-                    <td>28</td>
-                    <td>2</td>
+                    <td>0</td>
                     <td>39</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                        <span class="draw">➖</span>
-                        <span class="loss">❌</span>
-                        <span class="draw">➖</span>
-                    </td>
+                    <td>W L D D W W L</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="wolves.png">&nbsp;Wolves</td>
+                    <td>9</td>
+                    <td><img class="club-icon" src="brighton.png"><span>Brighton</span></td>
+                    <td>23</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>34</td>
+                    <td>D D D D W W L</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><img class="club-icon" src="wolves.png"><span>Wolves</span></td>
                     <td>23</td>
                     <td>10</td>
                     <td>7</td>
                     <td>6</td>
-                    <td>35</td>
-                    <td>28</td>
                     <td>7</td>
                     <td>37</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                    </td>
+                    <td>W W L D W</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="ipswich.png">&nbsp;Ipswich</td>
+                    <td>11</td>
+                    <td><img class="club-icon" src="ipswich.png"><span>Ipswich</span></td>
                     <td>23</td>
                     <td>10</td>
                     <td>5</td>
                     <td>8</td>
-                    <td>26</td>
-                    <td>20</td>
                     <td>6</td>
                     <td>35</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                        <span class="loss">❌</span>
-                    </td>
+                    <td>W D W L L</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="bournemouth.jpeg">&nbsp;Bournemouth</td>
-                    <td>23</td>
-                    <td>9</td>
-                    <td>8</td>
-                    <td>6</td>
-                    <td>31</td>
-                    <td>27</td>
-                    <td>4</td>
-                    <td>35</td>
-                    <td class="last-5">
-                        <span class="draw">➖</span>
-                        <span class="loss">❌</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                        <span class="win">✔</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="left"> <img class="club-icon" src="west ham.png">&nbsp;West Ham</td>
+                    <td>12</td>
+                    <td><img class="club-icon" src="west ham.png"><span>West Ham</span></td>
                     <td>23</td>
                     <td>9</td>
                     <td>6</td>
                     <td>8</td>
-                    <td>32</td>
-                    <td>30</td>
                     <td>2</td>
                     <td>33</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                    </td>
+                    <td>W L D W L</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="crystal palace.jpeg">&nbsp;Crystal Palace</td>
+                    <td>13</td>
+                    <td><img class="club-icon" src="crystal palace.jpeg"><span>Crystal Palace</span></td>
                     <td>23</td>
                     <td>8</td>
                     <td>7</td>
                     <td>8</td>
-                    <td>30</td>
-                    <td>32</td>
                     <td>-2</td>
                     <td>31</td>
-                    <td class="last-5">
-                        <span class="loss">❌</span>
-                        <span class="draw">➖</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                    </td>
+                    <td>L D D W L</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="brentford.png">&nbsp;Brentford</td>
+                    <td>14</td>
+                    <td><img class="club-icon" src="brentford.png"><span>Brentford</span></td>
                     <td>23</td>
                     <td>8</td>
                     <td>7</td>
                     <td>8</td>
-                    <td>28</td>
-                    <td>25</td>
                     <td>3</td>
                     <td>31</td>
-                    <td class="last-5">
-                        <span class="loss">❌</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                        <span class="draw">➖</span>
-                    </td>
+                    <td>L D W L D</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="fulham.jpeg">&nbsp;Fulham</td>
+                    <td>15</td>
+                    <td><img class="club-icon" src="fulham.jpeg"><span>Fulham</span></td>
                     <td>23</td>
                     <td>8</td>
                     <td>5</td>
                     <td>10</td>
-                    <td>25</td>
-                    <td>27</td>
                     <td>-2</td>
                     <td>29</td>
-                    <td class="last-5">
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                        <span class="loss">❌</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                    </td>
+                    <td>W L L D W</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="everton.jpeg">&nbsp;Everton</td>
+                    <td>16</td>
+                    <td><img class="club-icon" src="everton.jpeg"><span>Everton</span></td>
                     <td>23</td>
                     <td>7</td>
                     <td>4</td>
                     <td>12</td>
-                    <td>24</td>
-                    <td>32</td>
                     <td>-8</td>
                     <td>25</td>
-                    <td class="last-5">
-                        <span class="loss">❌</span>
-                        <span class="win">✔</span>
-                        <span class="draw">➖</span>
-                        <span class="win">✔</span>
-                        <span class="loss">❌</span>
-                    </td>
+                    <td>L W D W L</td>
                 </tr>
                 <tr>
-                    <td align="left"> <img class="club-icon" src="southampton.png">&nbsp;Southampton</td>
+                    <td>17</td>
+                    <td><img class="club-icon" src="southampton.png"><span>Southampton</span></td>
                     <td>23</td>
                     <td>6</td>
                     <td>3</td>
                     <td>14</td>
-                    <td>20</td>
-                    <td>40</td>
                     <td>-20</td>
                     <td>21</td>
-                    <td class="last-5">
-                        <span class="loss">❌</span>
-                        <span class="loss">❌</span>
-                        <span class="win">✔</span>
-                        <span class="draw">➖</span>
-                        <span class="loss">❌</span>
-                    </td>
+                    <td>L L W D L</td>
                 </tr>
             </tbody>
         </table>
